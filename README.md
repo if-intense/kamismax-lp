@@ -1,1 +1,1 @@
-# kamismax-lp
+# kmax
