@@ -701,9 +701,13 @@ section {
         }
       }
     }
-    p {
-      font-size: 1.25em;
-      font-weight: bold;
+    // p {
+    //   font-size: 1.25em;
+    //   font-weight: bold;
+    //   line-height: 1.5em;
+      
+    // }
+    h5 {
       line-height: 1.5em;
     }
   }
@@ -1360,6 +1364,14 @@ section {
       }
     }
   } 
+
+  .section10 {
+    .sect10-top-strip {
+      h2 {
+        font-size: 1.75em;
+      }
+    }
+  }
 }
 
 @media screen and (max-width:414px) {
