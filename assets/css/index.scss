@@ -615,6 +615,7 @@ section {
     }
     .video-iframe {
       padding:0;
+      box-shadow: 1px 3px 6px rgba(0,0,0,0.62);
       video {
         width:100%;
       }
@@ -701,13 +702,9 @@ section {
         }
       }
     }
-    // p {
-    //   font-size: 1.25em;
-    //   font-weight: bold;
-    //   line-height: 1.5em;
-      
-    // }
-    h5 {
+    p {
+      font-size: 1.25em;
+      font-weight: bold;
       line-height: 1.5em;
     }
   }
@@ -1024,7 +1021,7 @@ section {
       .price {
         .price-b {
           p {
-            font-size:1em;
+            font-size:0.8em;
             // line-height:2em;
           }
         }
@@ -1040,7 +1037,7 @@ section {
 
 @media screen and (max-width:576px) {
   .parallax-bg-bottom {
-    overflow-y: scroll;
+    // overflow-y: scroll;
     footer {
       margin-top:10vh;
       position:relative;
@@ -1364,14 +1361,6 @@ section {
       }
     }
   } 
-
-  .section10 {
-    .sect10-top-strip {
-      h2 {
-        font-size: 1.75em;
-      }
-    }
-  }
 }
 
 @media screen and (max-width:414px) {
