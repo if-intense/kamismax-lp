@@ -138,13 +138,13 @@ section {
 }
 
 .parallax-bg-bottom {
-  position: relative;
+  // position: relative;
   background: url('https://res.cloudinary.com/rfujiwar23/image/upload/v1632988158/kamismax/top-image-pc.jpg');
   // background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  // height: 100%;
   
   .logo {
     width:45%;
@@ -1162,6 +1162,7 @@ section {
       .overlay-text {
         h3 {
           font-size: 2em;
+          line-height: 2em;
         }
       }
     }
@@ -1186,6 +1187,8 @@ section {
   }
   .parallax-bg-bottom {
     overflow-y: scroll;
+    // height:200%;
+    // padding:3vh 0;
     .container {
       padding-left: 0;
       padding-right: 0;
@@ -1248,7 +1251,7 @@ section {
     .sect09-sect {
       .overlay-text {
         h3 {
-          font-size: 1.75em;
+          font-size: 1.5em;
         }
       }
     }
@@ -1352,7 +1355,7 @@ section {
                   font-size: 1em;
                 }
                 p {
-                  font-size:0.85em;
+                  font-size:0.8em;
                 }
               }
             }
