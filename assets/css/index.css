@@ -149,7 +149,7 @@ section {
   line-height: 2em;
 }
 .parallax-bg-bottom footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;

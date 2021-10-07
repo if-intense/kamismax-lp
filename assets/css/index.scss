@@ -188,7 +188,7 @@ section {
     }
   }
   footer {
-    position:absolute;
+    position:relative;
     bottom:0;
     right:0;
     left:0;
@@ -959,6 +959,7 @@ section {
     // background-color:#1E456E;
     background-position: center;
     background-size: cover;
+    // position: relative;
   }
 
   .section02 {
