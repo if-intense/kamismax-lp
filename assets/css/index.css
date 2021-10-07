@@ -23,6 +23,10 @@ html {
   display: none;
 }
 
+.br_on_992 {
+  display: none;
+}
+
 .bottomMenu {
   display: none;
   position: fixed;
@@ -730,6 +734,14 @@ section {
     margin: 5vh 0 10vh;
   }
 
+  .br_on_992 {
+    display: block;
+  }
+
+  .section09 .sect09-sect .overlay-text h3 {
+    line-height: 1.5em;
+  }
+
   html {
     overflow-x: hidden;
   }
@@ -811,6 +823,10 @@ section {
   }
   .parallax-bg-bottom footer .left, .parallax-bg-bottom footer .right, .parallax-bg-bottom footer .middle {
     text-align: center;
+  }
+
+  .section09 .sect09-sect .overlay-text h3 {
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 532px) {

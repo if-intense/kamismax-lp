@@ -33,6 +33,9 @@ html {
   display: none;
 }
 
+.br_on_992 {
+  display: none;
+}
 
 .bottomMenu {
   display: none;
@@ -919,6 +922,20 @@ section {
     }
   }
 
+  .br_on_992 {
+    display: block;
+  }
+
+  .section09 {
+    .sect09-sect {
+      .overlay-text {
+        h3 {
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+  
   html {
     overflow-x: hidden;
   }
@@ -1045,6 +1062,16 @@ section {
       flex-direction: column;
       .left, .right, .middle {
         text-align: center;
+      }
+    }
+  }
+
+  .section09 {
+    .sect09-sect {
+      .overlay-text {
+        h3 {
+          font-size: 2em;
+        }
       }
     }
   }
