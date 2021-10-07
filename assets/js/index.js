@@ -19,9 +19,8 @@ var vm = new Vue({
       pictureList: [
        {imgUrl: 'assets/images/kmx012.png', text: 'デジタルの可能性を', text2: '最大に活用', alt: 'KAMISMAX 画像　カメラ'},
        {imgUrl: 'assets/images/kmx015.png', text: '圧倒的なクオリティで見る', text2: '鮮明な映像', alt: 'KAMISMAX 画像　カメラ'},
-       {imgUrl: 'assets/images/kmx014.png', text: 'マルチアングル（多視点）で', text2: '見たい視点が選択可能', alt: 'KAMISMAX 画像　カメラ'},
        {imgUrl: 'assets/images/kmx013.png', text: '髪の毛１本１本を', text2: '鮮明に捉える4Kカメラで撮影', alt: 'KAMISMAX 画像　カメラ'},
-
+       {imgUrl: 'assets/images/kmx014.png', text: 'マルチアングル（多視点）で', text2: '見たい視点が選択可能', alt: 'KAMISMAX 画像　カメラ'},
       ]
     }
 });

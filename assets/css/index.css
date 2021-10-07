@@ -1073,6 +1073,11 @@ section {
     font-size: 1.5em;
   }
 }
+@media screen and (max-width: 391px) {
+  .section09 .sect09-sect .overlay-text h3 {
+    font-size: 1.45em;
+  }
+}
 @media screen and (max-width: 351px) {
   .section02 .info p {
     font-size: 14px;
@@ -1088,8 +1093,16 @@ section {
     font-size: 0.65em;
   }
 
+  .section08 .container .section08-text .text h4 {
+    font-size: 1.25em;
+  }
+
+  .section09 .sect09-sect .overlay-text h3 {
+    font-size: 1.25em;
+  }
+
   .section10 .sect10-top-strip h2 {
-    font-size: 1.75em;
+    font-size: 1.25em;
   }
   .section10 .container p {
     font-size: 0.85em;
