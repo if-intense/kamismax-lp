@@ -1390,7 +1390,7 @@ section {
                   font-size: 1em;
                 }
                 p {
-                  font-size:0.6em;
+                  font-size:0.75em;
                 }
               }
             }
@@ -1471,6 +1471,30 @@ section {
   }
 }
 
+@media screen and (max-width:400px) {
+  .section04 {
+    .columns-wrapper {
+      .column {
+        .container {
+          .outer {
+            .category {
+              .category-text {
+                padding:5px 5px 0;
+                h5 {
+                  font-size: 1em;
+                }
+                p {
+                  font-size:0.65em;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width:351px) {
   
   .section02 {
@@ -1495,7 +1519,7 @@ section {
             .category {
               .category-text {
                 p {
-                  font-size: 0.6em;
+                  font-size: 0.65em;
                 }
               }
             }
