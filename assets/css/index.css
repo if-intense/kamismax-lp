@@ -1066,7 +1066,11 @@ section {
     font-size: 1em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.65em;
+    font-size: 0.7em;
+  }
+
+  .section10 .sect10-top-strip h2 {
+    font-size: 1.75em;
   }
 }
 @media screen and (max-width: 351px) {
