@@ -259,7 +259,7 @@
           <h6 class="text-center my-5"><span class="p-3">サブスク一般会員　全ての番組が視聴可能</span></h6>
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12" id="offers">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 price flex" v-for="plan in plans" >
+              <!-- <div class="col-lg-6 col-md-6 col-sm-6 price flex" v-for="plan in plans" >
                 <div class="price-t">
                   <h4>{{plan.type}}</h4>
                   <h5>{{plan.monthly}}</h5>
@@ -269,7 +269,43 @@
                   <h3>{{plan.offer}}</h3>
                   <h4>{{plan.perYear}}</h4>
                   <h6>{{plan.perMonth}}</h6>
-                  <p>{{plan.text}}</p>
+                  <hr>
+                  <p style="white-space: pre-wrap;">{{plan.text}}</p>
+                  
+                </div>
+              </div> -->
+
+              <div class="col-lg-6 col-md-6 col-sm-6 price flex" >
+                <div class="price-t">
+                  <h4>通常価格</h4>
+                  <h5>月額 1,990円</h5>
+                  <h6>年間 23,880円</h6>
+                </div>
+                <div class="price-b">
+                  <h3>年間契約</h3>
+                  <h4>年額19,900円</h4>
+                  <h6>1,658円/月〜</h6>
+                  <hr>
+                  <!-- <p>&nbsp;</p> -->
+                  <p>&nbsp;<br>年間契約で２ヶ月分がお得に！</p>
+                  
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-6 price flex" >
+                <div class="price-t">
+                  <h4>OPEN記念価格</h4>
+                  <h5>月額 1,490円</h5>
+                  <h6>年間 17,880円</h6>
+                </div>
+                <div class="price-b">
+                  <h3>年間契約</h3>
+                  <h4>年額 14,900円</h4>
+                  <h6>1,241円/月〜
+                  </h6>
+                  <hr>
+                  <p>お申し込み後、<br>２年間特別価格でご利用いただけます</p>
+                  
                 </div>
               </div>
             </div>
