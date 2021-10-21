@@ -61,8 +61,8 @@ html {
 
 /* Popover Header */
 .popover-title {
-  background-color: #73AD21;
-  color: #FFFFFF;
+  background-color: #73ad21;
+  color: #ffffff;
   font-size: 28px;
   text-align: center;
 }
@@ -70,7 +70,7 @@ html {
 /* Popover Body */
 .popover-content {
   background-color: coral;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 25px;
 }
 
@@ -114,7 +114,7 @@ section {
 }
 
 .parallax-bg-bottom {
-  background: url("https://res.cloudinary.com/rfujiwar23/image/upload/v1632988158/kamismax/top-image-pc.jpg");
+  background: url("../images/kmx01.png") no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ section {
   padding: 3vh 3vw;
 }
 .parallax-bg-bottom .container h3 {
-  color: #F26722;
+  color: #f26722;
 }
 .parallax-bg-bottom .container h3 span {
   background: rgba(0, 0, 0, 0.62);
@@ -139,7 +139,7 @@ section {
   background: rgba(255, 255, 255, 0.8);
 }
 .parallax-bg-bottom .container .price .price-t {
-  background: #8FA2AD;
+  background: #8fa2ad;
   color: white;
   text-align: center;
   padding: 10px;
@@ -190,7 +190,7 @@ section {
 }
 .section02 .info p span {
   font-weight: bold;
-  color: #B91313;
+  color: #b91313;
   font-size: 24px;
 }
 .section02 .info .btn {
@@ -200,17 +200,17 @@ section {
   font-size: 20px;
   margin: 10px auto;
   text-align: center;
-  background: #F26722;
+  background: #f26722;
   color: #fff;
 }
 .section02 .info .btn .kmx-register:hover {
   background: #fff;
-  border: 1px solid #F26722;
-  color: #F26722;
+  border: 1px solid #f26722;
+  color: #f26722;
 }
 
 .top {
-  background: url("https://res.cloudinary.com/rfujiwar23/image/upload/v1632988158/kamismax/top-image-pc.jpg");
+  background: url("../images/kmx01.png") no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ section {
 }
 .section06 .container-fluid .view-settings .text-above h6 {
   font-size: 1.25em;
-  background: #1E456E;
+  background: #1e456e;
   padding: 10px 0;
   color: #fff;
   text-decoration: underline;
@@ -467,7 +467,7 @@ section {
 }
 .section07 .container .curriculum .drop-select .field h5 {
   font-size: 1.25em;
-  background: #A8A088;
+  background: #a8a088;
   padding: 5px;
   color: #fff;
   margin: 0;
@@ -756,20 +756,20 @@ section {
     border-radius: 5px;
     right: 5%;
     z-index: 999;
-    background: #F26722;
+    background: #f26722;
   }
   #cta_btn a {
     color: white;
   }
 
   .top {
-    background: url("../images/top-image-ph.jpg");
+    background: url("../images/top-image-ph.png");
     background-position: center;
     background-size: cover;
   }
 
   .parallax-bg-bottom {
-    background: url("../images/top-image-ph.jpg");
+    background: url("../images/top-image-ph.png");
     background-position: center;
     background-size: cover;
   }
@@ -821,7 +821,9 @@ section {
     position: relative;
     flex-direction: column;
   }
-  .parallax-bg-bottom footer .left, .parallax-bg-bottom footer .right, .parallax-bg-bottom footer .middle {
+  .parallax-bg-bottom footer .left,
+.parallax-bg-bottom footer .right,
+.parallax-bg-bottom footer .middle {
     text-align: center;
   }
 
@@ -945,7 +947,9 @@ section {
     position: relative;
     flex-direction: column;
   }
-  .parallax-bg-bottom footer .left, .parallax-bg-bottom footer .right, .parallax-bg-bottom footer .middle {
+  .parallax-bg-bottom footer .left,
+.parallax-bg-bottom footer .right,
+.parallax-bg-bottom footer .middle {
     text-align: center;
   }
 }
