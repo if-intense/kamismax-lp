@@ -86,9 +86,10 @@
       <section class="section02 top py-5">
         <div class="info my-5" data-aos="fade-right">
           <p><span>オンライン</span>で学べる<span>一流</span>への道</p>
-          <p><span>クーポンコード</span>で<span>１週間</span>の<span>無料体験</span></p>
+          <!-- <p><span>クーポンコード</span>で<span>１週間</span>の<span>無料体験</span></p> -->
           <p>定額見放題で<span>24時間</span>繰り返し視聴可能</p>
-          <p>今なら<span>1,490円/月〜</span>で<span>学び放題</span></p>
+          <p>今なら<span>月額1,490円</span>で<span>学び放題</span></p>
+          <p>通常価格<span>月額1,990円</span></p>
           <a class="btn">
           <div class="kmx-register">
             会員登録はこちら
@@ -103,10 +104,12 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 text-area">
               <div class="inner text-center">
-                <h4>スキルアップしたい方必見 !!</h4>
-                <h5>一流の技術を学びたい</h5>
-                <h5>時間を有効に使いたい</h5>
-                <h5>モチベーションをアップさせたい</h5>
+                <h5>働き方改革の流れで、レッスン日が短縮化</h5>
+                <h5>新型コロナウイルスの影響で、</h5>
+                <h5>セミナーやイベントが大幅に減少</h5>
+                <h5>フリーランスの増加等、多様化する働き方</h5>
+                <h5><i class="fas fa-angle-double-down"></i></h5>
+                <h5>個人の自主性が求められる時代に</h5>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 video-iframe" data-aos="fade-up">
@@ -180,13 +183,14 @@
             <div class="column">
               <div class="container">
                 <h4 class="text-center">特徴<span>１</span>豪華な出演者</h4>
-              <h6>日本が世界に誇る一流の美容師・美容室<br>
-                「カミカリスマ受賞した星を有する方々」<br>
-                一流の技術と考え方<br>
-                スキルとモチベーションを引き上げます
+              <h6>一流の証・カミカリスマを受賞された<br>
+                美容師・美容室を中心にキャスティング<br>
+                こだわりの技術や考え方など<br>
+                最前線のスキルを学びながら<br>
+                モチベーションアップに繋げて頂けます。
               </h6>
               <div class="sect-bottom mt-5">
-                <img src="assets/images/charisma-stylists.png" alt="KAMISMA 美容師" width="100%">
+                <img src="assets/images/charisma-stylists-2.png" alt="KAMISMA 美容師" width="100%">
               </div>
               </div>
             </div>
@@ -198,7 +202,7 @@
                 <div class="outer col-md-6 col-sm-9 mb-4" v-for="category in categories">
                   <div class="category row" data-aos="fade-up">
                     <div class="category-image col-3">
-                      <img :src="category.imgUrl" alt="KAMISMAX" class="img-fluid">
+                      <img :src="category.imgUrl" alt="KAMISMAX">
                     </div>
                     <div class="category-text col-9">
                       <h5>{{category.title}}</h5>
@@ -215,7 +219,7 @@
       <section class="section06">
         <div class="container-fluid" id="videoEnvironment">
           <div class="text">
-            <h4 class="text-center">特徴<span>３</span>優れた視聴環境</h4>
+            <h4 class="text-center"><em>最大の魅力 業界一の視聴環境</em></h4>
           </div>
           <div class="row">
             <div class="view-settings col-xl-3 col-lg-3 col-md-6 col-sm-6" v-for="image in pictureList" data-aos="fade-right">
@@ -235,7 +239,7 @@
             <div class="col-lg-6 my-auto">
               <div class="section08-text">
                 <div class="text">
-                  <h4>どのデバイスでも対応！<br>
+                  <h4>デバイスは選びません！<br>
                     スマホに対応しているので<br>
                     通勤や移動中にでも視聴可能！</h4>
                 </div>
@@ -256,7 +260,7 @@
         </div>
         <div class="container">
           <h3 class="text-center"><span class="p-2">サービスプラン</span></h3>
-          <h6 class="text-center my-5"><span class="p-3">サブスク一般会員　全ての番組が視聴可能</span></h6>
+          <h6 class="text-center my-5"><span class="p-3">サブスク会員　全ての番組が視聴可能</span></h6>
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12" id="offers">
             <div class="row">
               <!-- <div class="col-lg-6 col-md-6 col-sm-6 price flex" v-for="plan in plans" >

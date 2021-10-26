@@ -201,6 +201,7 @@ section {
       span {
         font-weight: bold;
         color: #b91313;
+        margin:0 3px;
         font-size: 24px;
       }
     }
@@ -361,6 +362,13 @@ section {
         }
         .category-image {
           padding: 0;
+          background:rgba(109, 109, 109,0.7);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width:100%;
+          }
         }
         .category-text {
           padding-top: 10px;
@@ -434,6 +442,14 @@ section {
           padding-right: 3px;
         }
       }
+      em {
+        font-style: normal;
+        // padding-bottom:3px;
+        text-decoration: underline;
+        font-size: 1.1em;
+        padding:3px 10px;
+        background:rgba(255, 255, 255, 0.8);
+      }
     }
   }
   .container-fluid {
@@ -446,7 +462,7 @@ section {
           margin-bottom: 3px;
         }
         h6 {
-          font-size: 1.25em;
+          font-size: 1.15em;
           background: #1e456e;
           padding: 10px 0;
           color: #fff;
@@ -673,6 +689,20 @@ section {
   }
 }
 
+@media screen and (max-width:1248px) {
+  .section06 {
+    .container-fluid {
+      .view-settings {
+        .text-above {
+          h6 {
+            font-size:1em;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .parallax-bg {
     max-width: 100%;
@@ -801,6 +831,20 @@ section {
   }
 }
 
+@media screen and (max-width:1067px) {
+  .section06 {
+    .container-fluid {
+      .view-settings {
+        .text-above {
+          h6 {
+            font-size:0.9em;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 992px) {
   body {
     overflow-x: hidden;
@@ -854,9 +898,15 @@ section {
         p {
           font-size: 1em;
         }
+        .text-above {
+          h6 {
+            font-size:1.25em;
+          }
+        }
       }
     }
   }
+
 
   .section07 {
     .container {
@@ -1002,6 +1052,21 @@ section {
     }
   }
 }
+
+@media screen and (max-width:670px) {
+  .section06 {
+    .container-fluid {
+      .view-settings {
+        .text-above {
+          h6 {
+            font-size:1.1em;
+          }
+        }
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 576px) {
   .parallax-bg-bottom {
@@ -1374,6 +1439,36 @@ section {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    .container {
+      .row {
+        .text-area {
+          h5 {
+            font-size: 1.1em;
+          }
+        }
+      }
+    }
+  }
+
+  .section06 {
+    background-color: #8fa2ad;
+    padding: 10vh 0;
+    // height: 50%;
+    .text {
+      h4 {
+        em {
+          font-style: normal;
+          // padding-bottom:3px;
+          text-decoration: underline;
+          font-size: 1em;
+          padding:3px 10px;
+          background:rgba(255, 255, 255, 0.8);
         }
       }
     }

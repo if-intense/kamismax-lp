@@ -191,6 +191,7 @@ section {
 .section02 .info p span {
   font-weight: bold;
   color: #b91313;
+  margin: 0 3px;
   font-size: 24px;
 }
 .section02 .info .btn {
@@ -329,6 +330,13 @@ section {
 }
 .section04 .columns-wrapper .column .category .category-image {
   padding: 0;
+  background: rgba(109, 109, 109, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section04 .columns-wrapper .column .category .category-image img {
+  width: 100%;
 }
 .section04 .columns-wrapper .column .category .category-text {
   padding-top: 10px;
@@ -392,6 +400,13 @@ section {
   padding-bottom: 50%;
   padding-right: 3px;
 }
+.section06 .text h4 em {
+  font-style: normal;
+  text-decoration: underline;
+  font-size: 1.1em;
+  padding: 3px 10px;
+  background: rgba(255, 255, 255, 0.8);
+}
 .section06 .container-fluid .view-settings {
   margin: 7vh auto;
 }
@@ -403,7 +418,7 @@ section {
   margin-bottom: 3px;
 }
 .section06 .container-fluid .view-settings .text-above h6 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   background: #1e456e;
   padding: 10px 0;
   color: #fff;
@@ -594,6 +609,11 @@ section {
   line-height: 1.5em;
 }
 
+@media screen and (max-width: 1248px) {
+  .section06 .container-fluid .view-settings .text-above h6 {
+    font-size: 1em;
+  }
+}
 @media screen and (min-width: 1200px) {
   .parallax-bg {
     max-width: 100%;
@@ -691,6 +711,11 @@ section {
     font-size: 0.8em;
   }
 }
+@media screen and (max-width: 1067px) {
+  .section06 .container-fluid .view-settings .text-above h6 {
+    font-size: 0.9em;
+  }
+}
 @media screen and (min-width: 992px) {
   body {
     overflow-x: hidden;
@@ -724,6 +749,9 @@ section {
 
   .section06 .container-fluid .view-settings p {
     font-size: 1em;
+  }
+  .section06 .container-fluid .view-settings .text-above h6 {
+    font-size: 1.25em;
   }
 
   .section07 .container .curriculum .drop-select {
@@ -812,6 +840,11 @@ section {
     font-size: 0.8em;
   }
   .parallax-bg-bottom .container h6 span {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 670px) {
+  .section06 .container-fluid .view-settings .text-above h6 {
     font-size: 1.1em;
   }
 }
@@ -1040,6 +1073,22 @@ section {
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
     font-size: 0.75em;
+  }
+
+  .bottom .container .row .text-area h5 {
+    font-size: 1.1em;
+  }
+
+  .section06 {
+    background-color: #8fa2ad;
+    padding: 10vh 0;
+  }
+  .section06 .text h4 em {
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1em;
+    padding: 3px 10px;
+    background: rgba(255, 255, 255, 0.8);
   }
 }
 @media screen and (max-width: 375px) {

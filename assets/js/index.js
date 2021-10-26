@@ -20,7 +20,7 @@ var vm = new Vue({
        {imgUrl: 'assets/images/kmx012.png', text: 'デジタルの可能性を', text2: '最大に活用', alt: 'KAMISMAX 画像　カメラ'},
        {imgUrl: 'assets/images/kmx015.png', text: '圧倒的なクオリティで見る', text2: '鮮明な映像', alt: 'KAMISMAX 画像　カメラ'},
        {imgUrl: 'assets/images/kmx013.png', text: '髪の毛１本１本を', text2: '鮮明に捉える4Kカメラで撮影', alt: 'KAMISMAX 画像　カメラ'},
-       {imgUrl: 'assets/images/kmx014.png', text: 'マルチアングル（多視点）で', text2: '見たい視点が選択可能', alt: 'KAMISMAX 画像　カメラ'},
+       {imgUrl: 'assets/images/kmx014.png', text: 'マルチアングル', text2: 'ボタン一つで見たい視点が選択可能', alt: 'KAMISMAX 画像　カメラ'},
       ]
     }
 });
@@ -66,13 +66,13 @@ var vm = new Vue({
   el: '#program',
   data: {
     categories: [
-     {imgUrl:'assets/images/kmx005.png', body: 'トレンドスタイルや技術のこだわりをご紹介',  title: 'トレンド'},
-     {imgUrl:'assets/images/kmx006.png', body: '技術や理論、実験などの学びを提供',  title: 'スタディ'},
-     {imgUrl:'assets/images/kmx007.png', body: 'インタビューや密着など「リアルを配信」',  title: 'リアリティ'},
-     {imgUrl:'assets/images/kmx011.png', body: '色々な企画の対談やバトルなどを配信',  title: 'バラエティ'},
-     {imgUrl:'assets/images/kmx008.png', body: 'ヘアショーやイベント映像を配信',  title: 'エンターテインメント'},
-     {imgUrl:'assets/images/kmx009.png', body: '感性を刺激する特別な映像を配信',  title: 'スペシャル'},
-     {imgUrl:'assets/images/kmx010.png', body: 'KAMI CHARISMAの授賞式等の関連画像を紹介',  title: 'カミカリスマ'},
+     {imgUrl:'assets/images/c-trend.jpg', body: 'トレンドスタイルや技術のこだわりをご紹介',  title: 'トレンド'},
+     {imgUrl:'assets/images/c-study.jpg', body: '技術や理論、実験などの学びを提供',  title: 'スタディ'},
+     {imgUrl:'assets/images/c-reality.jpg', body: 'インタビューや密着など「リアルを配信」',  title: 'リアリティ'},
+     {imgUrl:'assets/images/c-variety.jpg', body: '色々な企画の対談やバトルなどを配信',  title: 'バラエティ'},
+     {imgUrl:'assets/images/c-special.jpg', body: '感性を刺激する特別な映像を配信',  title: 'スペシャル'},
+     {imgUrl:'assets/images/c-entertainment.jpg', body: 'ヘアショーやイベント映像を配信',  title: 'エンターテインメント'},
+     {imgUrl:'assets/images/c-kamicharisma.jpg', body: 'KAMI CHARISMAの授賞式等の関連画像を紹介',  title: 'カミカリスマ'},
     ]
   }
 });
