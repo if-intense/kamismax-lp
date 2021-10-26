@@ -871,8 +871,8 @@ section {
     display: none;
     position: fixed;
     bottom: 2%;
-    right: 0;
-    left: 0;
+    right: 0.75%;
+    left: 0.75%;
   }
   .bottomMenu .register {
     width: 48%;
