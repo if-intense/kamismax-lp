@@ -876,12 +876,12 @@ section {
   }
   .bottomMenu .register {
     width: 48%;
-    float: left;
+    float: right;
     font-size: 0.9em;
   }
   .bottomMenu .sample {
     width: 48%;
-    float: right;
+    float: left;
     font-size: 0.9em;
   }
 }
