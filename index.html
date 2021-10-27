@@ -96,8 +96,8 @@
           <p><span>オンライン</span>で学べる<span>一流</span>への道</p>
           <!-- <p><span>クーポンコード</span>で<span>１週間</span>の<span>無料体験</span></p> -->
           <p>定額見放題で<span>24時間</span>繰り返し視聴可能</p>
-          <p>今なら<span>月額1,490円</span>で<span>学び放題</span></p>
           <p>通常価格<span>月額1,990円</span></p>
+          <p>今なら<span>月額1,490円</span>で<span>学び放題</span></p>
           <a class="btn">
           <div class="kmx-register">
             会員登録はこちら
@@ -112,12 +112,10 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 text-area">
               <div class="inner text-center">
-                <h5>働き方改革の流れで、レッスン日が短縮化</h5>
-                <h5>新型コロナウイルスの影響で、</h5>
-                <h5>セミナーやイベントが大幅に減少</h5>
-                <h5>フリーランスの増加等、多様化する働き方</h5>
-                <h5><i class="fas fa-angle-double-down"></i></h5>
-                <h5>個人の自主性が求められる時代に</h5>
+                <h4>スキルアップしたい方必見 !!</h4>
+                <h5>一流の技術を学びたい</h5>
+                <h5>時間を有効に使いたい</h5>
+                <h5>モチベーションをアップさせたい</h5>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 video-iframe" data-aos="fade-up">
@@ -135,10 +133,12 @@
             <div class="sect09-sect text-center" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('assets/images/kmx-img001.jpg');">
               <div class="overlay-text" id="tasks">
                 <h3><span class="the-task">美容業界における教育の課題</span></h3>
-                <p>就職先以外に教育環境が広がらない</p>
-                <p>働き方改革による、レッスン日の減少</p>
+                <p>働き方改革の流れで、レッスン日が短縮化</p>
+                <p>新型コロナウイルスの影響で、</p>
+                <p>セミナーやイベントが大幅に減少</p>
                 <p>フリーランスの増加等、多様化する働き方</p>
-                <p>就職に自身のスキルが活かされにくい</p>
+                <h2><i class="fas fa-angle-double-down"></i></h2>
+                <p>個人の自主性が求められる時代に</p>
               </div>
             </div>
       </section>
@@ -207,13 +207,13 @@
                 <h4 class="text-center">特徴<span>２</span>豊富な番組カテゴリー</h4>
                 <h6>技術動画をメインに<br class="br_on">エンターテインメント性のある<br>映像を豊富に配信</h6>
               <div class="categories gx-0 row" id="program">
-                <div class="outer col-md-6 col-sm-9 mb-4" v-for="category in categories">
+                <div class="outer col-md-6 col-sm-9 col-sm-10 mb-4" v-for="category in categories">
                   <div class="category row" data-aos="fade-up">
-                    <div class="category-image col-3">
+                    <div class="category-image">
                       <img :src="category.imgUrl" alt="KAMISMAX">
                     </div>
-                    <div class="category-text col-9">
-                      <h5>{{category.title}}</h5>
+                    <div class="category-text">
+                      <h5 class="mt-2">{{category.title}}</h5>
                       <p>{{category.body}}</p>
                     </div>
                   </div>
@@ -271,21 +271,6 @@
           <h6 class="text-center my-5"><span class="p-3">サブスク会員　全ての番組が視聴可能</span></h6>
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12" id="offers">
             <div class="row">
-              <!-- <div class="col-lg-6 col-md-6 col-sm-6 price flex" v-for="plan in plans" >
-                <div class="price-t">
-                  <h4>{{plan.type}}</h4>
-                  <h5>{{plan.monthly}}</h5>
-                  <h6>{{plan.yearly}}</h6>
-                </div>
-                <div class="price-b">
-                  <h3>{{plan.offer}}</h3>
-                  <h4>{{plan.perYear}}</h4>
-                  <h6>{{plan.perMonth}}</h6>
-                  <hr>
-                  <p style="white-space: pre-wrap;">{{plan.text}}</p>
-                  
-                </div>
-              </div> -->
 
               <div class="col-lg-6 col-md-6 col-sm-6 price flex" >
                 <div class="price-t">
@@ -296,7 +281,7 @@
                 <div class="price-b">
                   <h3>年間契約</h3>
                   <h4>年額19,900円</h4>
-                  <h6>1,658円/月〜</h6>
+                  <h6>(実質月額 1,658円)</h6>
                   <hr>
                   <!-- <p>&nbsp;</p> -->
                   <p>&nbsp;<br>年間契約で２ヶ月分がお得に！</p>
@@ -313,7 +298,7 @@
                 <div class="price-b">
                   <h3>年間契約</h3>
                   <h4>年額 14,900円</h4>
-                  <h6>1,241円/月〜
+                  <h6>(実質月額 1,241円)
                   </h6>
                   <hr>
                   <p>お申し込み後、<br>２年間特別価格でご利用いただけます</p>

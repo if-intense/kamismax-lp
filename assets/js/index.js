@@ -95,8 +95,8 @@ var vm = new Vue ({
   el: '#offers',
   data: {
     plans: [
-      {type: '通常価格', monthly: '月額 1,990円', yearly:'年間 23,880円', offer: '年間契約', perYear: '年額19,900円', perMonth: '1,658円/月〜', text:'年間契約で２ヶ月分がお得に！'},
-      {type: 'OPEN記念価格', monthly: '月額 1,490円', yearly:'年間 17,880円', offer: '年間契約', perYear: '年額 14,900円', perMonth: '1,241円/月〜', text:'お申し込み後、２年間特別価格で' + '\n' + 'ご利用いただけます'},
+      {type: '通常価格', monthly: '月額 1,990円', yearly:'年間 23,880円', offer: '年間契約', perYear: '年額19,900円', perMonth: '(実質月額1,658円)', text:'年間契約で２ヶ月分がお得に！'},
+      {type: 'OPEN記念価格', monthly: '月額 1,490円', yearly:'年間 17,880円', offer: '年間契約', perYear: '年額 14,900円', perMonth: '(実質月額1,241円)', text:'お申し込み後、２年間特別価格で' + '\n' + 'ご利用いただけます'},
     ]
   }
 });

@@ -350,15 +350,19 @@ section {
 .section04 .columns-wrapper .column .category .category-image {
   padding: 0;
   background: rgba(109, 109, 109, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  aspect-ratio: 16/9;
 }
 .section04 .columns-wrapper .column .category .category-image img {
   width: 100%;
 }
 .section04 .columns-wrapper .column .category .category-text {
-  padding-top: 10px;
+  padding: 5px 10px;
+}
+.section04 .columns-wrapper .column .category .category-text h5 {
+  font-size: 1.5em;
+}
+.section04 .columns-wrapper .column .category .category-text p {
+  font-size: 1.25em;
 }
 
 .section05 {
@@ -422,9 +426,10 @@ section {
 .section06 .text h4 em {
   font-style: normal;
   text-decoration: underline;
-  font-size: 1.1em;
-  padding: 3px 10px;
-  background: rgba(255, 255, 255, 0.8);
+  font-size: 1.5em;
+  padding: 5px 20px;
+  background: #1e456e;
+  color: #fff;
 }
 .section06 .container-fluid .view-settings {
   margin: 7vh auto;
@@ -696,21 +701,13 @@ section {
     bottom: 0;
     left: 0;
   }
-  .section04 .columns-wrapper .column p {
-    padding: 0 20px;
-  }
   .section04 .columns-wrapper .column .category {
     background: #c9b783;
     position: relative;
   }
-  .section04 .columns-wrapper .column .category .category-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 999;
-  }
-  .section04 .columns-wrapper .column .category .category-image {
-    padding: 0;
+  .section04 .columns-wrapper .column .category .category-text p {
+    font-size: 1.15em;
+    padding: 0 10px;
   }
 
   .parallax-bg-bottom .container .price .price-b p {
@@ -735,11 +732,6 @@ section {
     font-size: 0.9em;
   }
 }
-@media screen and (min-width: 992px) {
-  body {
-    overflow-x: hidden;
-  }
-}
 @media screen and (max-width: 992px) {
   .section03 .selling-point {
     max-width: 100%;
@@ -760,10 +752,10 @@ section {
     padding: 5px 10px 0;
   }
   .section04 .columns-wrapper .column .container .category .category-text h5 {
-    font-size: 0.9em;
+    font-size: 1.3em;
   }
   .section04 .columns-wrapper .column .container .category .category-text p {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   .section06 .container-fluid .view-settings p {
@@ -791,6 +783,11 @@ section {
 
   html {
     overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 850px) {
+  .section04 .columns-wrapper .column p {
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -844,11 +841,11 @@ section {
     padding: 12px;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
     padding: 0;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   .section07 .container-fluid .certificate .stamp {
@@ -885,6 +882,12 @@ section {
     font-size: 0.9em;
   }
 }
+@media screen and (max-width: 650px) {
+  .section04 .columns-wrapper .column .container #program {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 576px) {
   .parallax-bg-bottom footer {
     margin-top: 10vh;
@@ -906,10 +909,10 @@ section {
     padding: 10px;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.8em;
+    font-size: 1.05em;
   }
 }
 @media screen and (max-width: 520px) {
@@ -982,6 +985,9 @@ section {
   .section06 .container-fluid .view-settings p {
     font-weight: bold;
   }
+  .section06 .text h4 em {
+    font-size: 1.4em;
+  }
 
   .section09 .sect09-sect .overlay-text h3 {
     font-size: 2em;
@@ -1023,6 +1029,15 @@ section {
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .section04 .columns-wrapper .column .container {
+    padding: 0;
+  }
+
+  .section06 .text h4 em {
+    font-size: 1.2em;
+  }
+}
 @media screen and (max-width: 466px) {
   .parallax-bg-bottom .container h6 span {
     font-size: 0.9em;
@@ -1038,6 +1053,11 @@ section {
   }
   .section04 .columns-wrapper .column .container .category .category-text p {
     padding: 0;
+  }
+
+  .section06 .text h4 em {
+    font-size: 1.15em;
+    padding: 5px 10px;
   }
 
   .section09 .sect09-sect .overlay-text h3 {
@@ -1065,14 +1085,20 @@ section {
   .section04 .columns-wrapper .column h6 {
     font-size: 1.1em;
   }
+  .section04 .columns-wrapper .column .container {
+    padding: 0;
+  }
+  .section04 .columns-wrapper .column .container .outer {
+    padding: 0;
+  }
   .section04 .columns-wrapper .column .container .outer .category .category-text {
     padding: 10px 10px 0;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .section09 .sect09-sect .overlay-text h3 {
@@ -1095,10 +1121,16 @@ section {
     padding: 8px 8px 0;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.8em;
+    font-size: 1.05em;
+  }
+}
+@media screen and (max-width: 414px) {
+  .section06 .text h4 em {
+    font-size: 1.2em;
+    padding: 5px 7px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1106,26 +1138,28 @@ section {
     padding: 5px 5px 0;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.75em;
+    font-size: 0.95em;
   }
 
   .bottom .container .row .text-area h5 {
     font-size: 1.1em;
   }
 
-  .section06 {
-    background-color: #8fa2ad;
-    padding: 10vh 0;
-  }
   .section06 .text h4 em {
-    font-style: normal;
-    text-decoration: underline;
-    font-size: 1em;
-    padding: 3px 10px;
-    background: rgba(255, 255, 255, 0.8);
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section10 .sect10-top-strip h2 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 391px) {
+  .section09 .sect09-sect .overlay-text h3 {
+    font-size: 1.45em;
   }
 }
 @media screen and (max-width: 375px) {
@@ -1147,10 +1181,14 @@ section {
     padding: 5px 5px 0;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.7em;
+    font-size: 0.9em;
+  }
+
+  .section06 .text h4 em {
+    font-size: 1em;
   }
 
   .section09 .sect09-sect .overlay-text h3 {
@@ -1163,25 +1201,8 @@ section {
   .parallax-bg-bottom .container h6 span {
     font-size: 0.7em;
   }
-}
-@media screen and (max-width: 400px) {
-  .section04 .columns-wrapper .column .container .outer .category .category-text {
-    padding: 5px 5px 0;
-  }
-  .section04 .columns-wrapper .column .container .outer .category .category-text h5 {
-    font-size: 1em;
-  }
-  .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.7em;
-  }
-
-  .section10 .sect10-top-strip h2 {
-    font-size: 1.5em;
-  }
-}
-@media screen and (max-width: 391px) {
-  .section09 .sect09-sect .overlay-text h3 {
-    font-size: 1.45em;
+  .parallax-bg-bottom .container .price {
+    width: 90%;
   }
 }
 @media screen and (max-width: 351px) {
@@ -1196,7 +1217,7 @@ section {
     font-size: 0.9em;
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
-    font-size: 0.65em;
+    font-size: 0.9em;
   }
 
   .section08 .container .section08-text .text h4 {
