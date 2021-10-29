@@ -175,6 +175,7 @@ section {
   background: #17174a;
   box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.66);
   color: #f92ba6;
+  text-shadow: #676e72 1px 2px 3px;
 }
 .parallax-bg-bottom .container .price .spec {
   border-width: 6px;
