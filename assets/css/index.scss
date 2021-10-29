@@ -183,8 +183,8 @@ section {
         }
       }
       .spec-t {
-        background:#000;
-        text-shadow: 1px 1px 1px rgb(62, 62, 62, 0.7);
+        background:rgb(50,50,50);
+        // text-shadow: 1px 1px 1px rgb(62, 62, 62, 0.7);
       }
       .spec {
         // border:5px solid #b91313;
@@ -196,7 +196,8 @@ section {
         outline-offset: -6px;
         border-style: solid;
         // border-image: linear-gradient(to right,#fccdd2, #d65a66) 1;
-        border-image:#000;
+        border-image:rgb(87, 88, 89);
+        border-image: linear-gradient(to right,#333434, #333434) 1;
       }
       .regular {
         // border:5px solid #b91313;
