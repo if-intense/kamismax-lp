@@ -183,7 +183,9 @@ section {
         }
       }
       .spec-t {
-        background:rgb(50,50,50);
+        background:rgb(0,0,50);
+        // background:rgb(0,0,0);
+        // 
         // text-shadow: 1px 1px 1px rgb(62, 62, 62, 0.7);
       }
       .spec {
@@ -197,7 +199,8 @@ section {
         border-style: solid;
         // border-image: linear-gradient(to right,#fccdd2, #d65a66) 1;
         border-image:rgb(87, 88, 89);
-        border-image: linear-gradient(to right,#333434, #333434) 1;
+        border-image: linear-gradient(to right,rgb(0,0,50), rgb(0,0,50)) 1;
+        box-shadow: 4px 5px 6px rgb(0 0 0 / 66%);
       }
       .regular {
         // border:5px solid #b91313;

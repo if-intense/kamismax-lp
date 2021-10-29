@@ -172,14 +172,15 @@ section {
   line-height: 2em;
 }
 .parallax-bg-bottom .container .price .spec-t {
-  background: #323232;
+  background: #000032;
 }
 .parallax-bg-bottom .container .price .spec {
   border-width: 6px;
   outline-offset: -6px;
   border-style: solid;
   border-image: #575859;
-  border-image: linear-gradient(to right, #333434, #333434) 1;
+  border-image: linear-gradient(to right, #000032, #000032) 1;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.66);
 }
 .parallax-bg-bottom .container .price .regular {
   border-width: 6px;
