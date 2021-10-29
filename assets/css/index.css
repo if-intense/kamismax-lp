@@ -171,6 +171,22 @@ section {
 .parallax-bg-bottom .container .price .price-b p {
   line-height: 2em;
 }
+.parallax-bg-bottom .container .price .spec-t {
+  background: #e9969e;
+  text-shadow: 1px 1px 1px rgba(62, 62, 62, 0.7);
+}
+.parallax-bg-bottom .container .price .spec {
+  border-width: 6px;
+  outline-offset: -6px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #fccdd2, #d65a66) 1;
+}
+.parallax-bg-bottom .container .price .regular {
+  border-width: 6px;
+  outline-offset: -6px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #fff, #fff) 1;
+}
 .parallax-bg-bottom footer {
   position: relative;
   bottom: 0;
@@ -1012,7 +1028,7 @@ section {
     padding-right: 0;
   }
   .parallax-bg-bottom .container .price {
-    width: 75%;
+    width: 85%;
     margin: 10px auto;
   }
   .parallax-bg-bottom .container h6 span {
