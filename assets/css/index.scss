@@ -183,7 +183,8 @@ section {
         }
       }
       .spec-t {
-        background:rgb(0,0,50);
+        background:rgb(23, 23, 74);
+        box-shadow: 4px 5px 6px rgb(0 0 0 / 66%);
         // background:rgb(0,0,0);
         // 
         // text-shadow: 1px 1px 1px rgb(62, 62, 62, 0.7);
@@ -198,8 +199,8 @@ section {
         outline-offset: -6px;
         border-style: solid;
         // border-image: linear-gradient(to right,#fccdd2, #d65a66) 1;
-        border-image:rgb(87, 88, 89);
-        border-image: linear-gradient(to right,rgb(0,0,50), rgb(0,0,50)) 1;
+        border-image:rgb(60, 61, 61);
+        border-image: linear-gradient(to right,rgb(23, 23, 74), rgb(23, 23, 74)) 1;
         box-shadow: 4px 5px 6px rgb(0 0 0 / 66%);
       }
       .regular {
