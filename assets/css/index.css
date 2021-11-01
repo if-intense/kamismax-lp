@@ -177,15 +177,15 @@ section {
   text-shadow: #676e72 1px 2px 3px;
 }
 @keyframes flicker {
-  0%, 20%, 40%, 60%, 80%, 100% {
+  0%, 50%, 100% {
     text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #d3cf5d, 0 0 80px #d3cf5d, 0 0 90px #d3cf5d, 0 0 100px #d3cf5d, 0 0 150px #d3cf5d;
   }
-  20%, 24%, 55% {
+  75% {
     text-shadow: none;
   }
 }
 .parallax-bg-bottom .container .price .spec-t .glow {
-  animation: flicker 3s infinite alternate;
+  animation: flicker 2s infinite alternate;
   color: #fff;
 }
 .parallax-bg-bottom .container .price .spec {
