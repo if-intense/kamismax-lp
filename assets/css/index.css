@@ -185,7 +185,7 @@ section {
   }
 }
 .parallax-bg-bottom .container .price .spec-t .glow {
-  animation: flicker 2s infinite alternate;
+  animation: flicker 4s infinite alternate;
   color: #f92ba6;
 }
 .parallax-bg-bottom .container .price .spec {
