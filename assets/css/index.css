@@ -178,7 +178,7 @@ section {
 }
 @keyframes flicker {
   0%, 20%, 40%, 60%, 80%, 100% {
-    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f92ba6, 0 0 80px #f92ba6, 0 0 90px #f92ba6, 0 0 100px #f92ba6, 0 0 150px #f92ba6;
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 90px #fff, 0 0 100px #fff, 0 0 150px #fff;
   }
   20%, 24%, 55% {
     text-shadow: none;
@@ -195,6 +195,11 @@ section {
   border-image: #3c3d3d;
   border-image: linear-gradient(to right, #17174a, #17174a) 1;
   box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.66);
+}
+.parallax-bg-bottom .container .price .spec a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
 }
 .parallax-bg-bottom .container .price .regular {
   border-width: 6px;
@@ -485,6 +490,10 @@ section {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+body.modal-open {
+  overflow: visible;
+}
+
 .section07 {
   background-color: black;
   color: #fff;
@@ -662,6 +671,22 @@ section {
   font-size: 1.25em;
   font-weight: bold;
   line-height: 1.5em;
+}
+
+.price-modal-body p.price-tag {
+  font-size: 1.25em;
+}
+.price-modal-body p.price-tag strong {
+  color: #000;
+}
+.price-modal-body p.price-tag span {
+  color: #b91313;
+  font-weight: 600;
+}
+.price-modal-body p.price-tag em {
+  font-size: 0.75em;
+  font-style: normal;
+  color: #b91313;
 }
 
 @media screen and (max-width: 1248px) {
