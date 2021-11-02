@@ -573,6 +573,11 @@ section {
           font-weight: bold;
           font-size: 1.5em;
         }
+        em {
+          font-size: 1.5em;
+          font-style: normal;
+          font-weight: bold;
+        }
       }
       .description {
         ul {
@@ -1587,7 +1592,7 @@ body.modal-open {
       .multi-angle {
         margin-top:10vh;
         h4 {
-          font-size: 1.5em;
+          font-size: 1.25em;
         }
         h6 {
           font-size: 0.85em;

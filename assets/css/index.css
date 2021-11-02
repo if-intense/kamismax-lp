@@ -506,6 +506,11 @@ section {
   font-weight: bold;
   font-size: 1.5em;
 }
+.section06 .container-fluid .multi-angle h6 em {
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: bold;
+}
 .section06 .container-fluid .multi-angle .description ul {
   list-style: none;
 }
@@ -1192,7 +1197,7 @@ body.modal-open {
     margin-top: 10vh;
   }
   .section06 .container-fluid .multi-angle h4 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .section06 .container-fluid .multi-angle h6 {
     font-size: 0.85em;
