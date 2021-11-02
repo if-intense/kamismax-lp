@@ -106,6 +106,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .parallax-bg .nav {
   position: fixed;
@@ -118,6 +119,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 8vh 0;
+  position: relative;
 }
 .parallax-bg .top-wrapper .top-title .main-logo {
   margin: 8vh auto 2vh;
@@ -130,6 +132,13 @@ section {
   line-height: 2em;
   padding: 4vh 0;
   color: white;
+  z-index: 999;
+}
+.parallax-bg .float-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
 }
 
 .parallax-bg-bottom {
@@ -484,6 +493,24 @@ section {
   color: #fff;
   text-decoration: underline;
   margin-bottom: 0;
+}
+.section06 .container-fluid .multi-angle h4 {
+  font-size: 2em;
+}
+.section06 .container-fluid .multi-angle h6 {
+  font-size: 1.25em;
+  line-height: 1.75em;
+  font-weight: normal;
+}
+.section06 .container-fluid .multi-angle h6 strong {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.section06 .container-fluid .multi-angle .description ul {
+  list-style: none;
+}
+.section06 .container-fluid .multi-angle .description ul li {
+  float: left;
 }
 
 .modal {
@@ -956,6 +983,10 @@ body.modal-open {
     text-align: center;
   }
 
+  .parallax-bg .float-image {
+    width: 50%;
+  }
+
   .section09 .sect09-sect .overlay-text h3 {
     font-size: 2em;
   }
@@ -1155,6 +1186,32 @@ body.modal-open {
   }
   .section04 .columns-wrapper .column .container .outer .category .category-text p {
     font-size: 1.15em;
+  }
+
+  .section06 .container-fluid .multi-angle {
+    margin-top: 10vh;
+  }
+  .section06 .container-fluid .multi-angle h4 {
+    font-size: 1.5em;
+  }
+  .section06 .container-fluid .multi-angle h6 {
+    font-size: 0.85em;
+    line-height: 1.75em;
+    font-weight: normal;
+  }
+  .section06 .container-fluid .multi-angle h6 strong {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+  .section06 .container-fluid .multi-angle .description .points {
+    border-top: #000 dotted 1px;
+    padding-top: 10px;
+  }
+  .section06 .container-fluid .multi-angle .description .points h5 {
+    font-size: 1em;
+  }
+  .section06 .container-fluid .multi-angle .description .points p {
+    font-size: 0.9em;
   }
 
   .section09 .sect09-sect .overlay-text h3 {
