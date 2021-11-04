@@ -715,6 +715,7 @@ body.modal-open {
 
 .price-modal-body p.price-tag {
   font-size: 1.25em;
+  text-align: center;
 }
 .price-modal-body p.price-tag strong {
   color: #000;
@@ -1235,7 +1236,7 @@ body.modal-open {
     font-size: 2em;
   }
   .section09 .sect09-sect .overlay-text p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .parallax-bg-bottom .container .price .price-b p {
@@ -1329,6 +1330,10 @@ body.modal-open {
   }
   .parallax-bg-bottom .container .price {
     width: 90%;
+  }
+
+  .price-modal-body p {
+    font-size: 0.9em;
   }
 }
 @media screen and (max-width: 351px) {

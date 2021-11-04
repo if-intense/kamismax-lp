@@ -824,6 +824,7 @@ body.modal-open {
 .price-modal-body {
   p.price-tag {
     font-size:1.25em;
+    text-align: center;
     strong {
       color:#000;
     }
@@ -1642,7 +1643,7 @@ body.modal-open {
           font-size: 2em;
         }
         p {
-          font-size: 1.2em;
+          font-size: 1.1em;
         }
       }
     }
@@ -1850,6 +1851,12 @@ body.modal-open {
       .price {
         width:90%;
       }
+    }
+  }
+
+  .price-modal-body {
+    p {
+      font-size:0.9em;
     }
   }
 }
