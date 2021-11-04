@@ -101,7 +101,8 @@ section {
   box-sizing: border-box;
 }
 .parallax-bg {
-  background: $kMaxBlack;
+  // background: #F26822;
+  background-color: $kMaxBlack;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,6 +116,7 @@ section {
     left: 0;
     z-index: 4;
   }
+
   .top-wrapper {
     display: flex;
     justify-content: center;
@@ -133,6 +135,7 @@ section {
         line-height: 2em;
         padding: 4vh 0;
         color: white;
+        text-shadow: 1px 2px 3px #676e72;
         z-index: 999;
       } 
     }
@@ -140,8 +143,15 @@ section {
   .float-image {
     position:absolute;
     bottom:0;
-    right: 0;
+    right:0%;
+    right:0%;
     width: 30%;
+   .text {
+     float:left;
+   }
+   .img-right {
+     float:right;
+   }
   }
 }
 
@@ -1267,6 +1277,8 @@ body.modal-open {
   .parallax-bg {
     .float-image {
       width: 50%;
+      // left:0;
+      
     }
   }
 

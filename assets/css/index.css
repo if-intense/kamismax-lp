@@ -99,7 +99,7 @@ section {
 }
 
 .parallax-bg {
-  background: #090504;
+  background-color: #090504;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,13 +132,21 @@ section {
   line-height: 2em;
   padding: 4vh 0;
   color: white;
+  text-shadow: 1px 2px 3px #676e72;
   z-index: 999;
 }
 .parallax-bg .float-image {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 0%;
+  right: 0%;
   width: 30%;
+}
+.parallax-bg .float-image .text {
+  float: left;
+}
+.parallax-bg .float-image .img-right {
+  float: right;
 }
 
 .parallax-bg-bottom {
